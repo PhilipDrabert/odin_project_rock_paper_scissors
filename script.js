@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
-    const options = ["Rock", "Paper", "Scissors"];
-    let playerSelection = options[0];
+    const options = ["rock", "paper", "scissors"];
+    let playerSelection = prompt("It's your turn.").toLocaleLowerCase();
     const getComputerChoice = function() {
         let randomNumber = Math.floor(Math.random() * 3);
         return options[randomNumber];
