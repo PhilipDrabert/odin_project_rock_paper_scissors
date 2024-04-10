@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
+/*document.addEventListener("DOMContentLoaded", function() {
     const options = ["rock", "paper", "scissors"];
     let playerSelection = prompt("It's your turn.").toLocaleLowerCase();
     const getComputerChoice = function() {
