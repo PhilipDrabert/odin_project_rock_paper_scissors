@@ -1,6 +1,10 @@
-/*document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function() {
     const options = ["rock", "paper", "scissors"];
-    let playerSelection = prompt("It's your turn.").toLocaleLowerCase();
+    const playButton = document.getElementById("play")
+    const rockButton = document.getElementById("rock");
+    const paperButton = document.getElementById("paper");
+    const scissorsButton = document.getElementById("scissors");
+    /*let playerSelection = prompt("It's your turn.").toLocaleLowerCase();*/
     const getComputerChoice = function() {
         let randomNumber = Math.floor(Math.random() * 3);
         return options[randomNumber];

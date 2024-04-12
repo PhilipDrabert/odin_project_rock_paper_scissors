@@ -1,13 +1,53 @@
+* {
+    border: none;
+}
 body {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    height: 100%;
+    font-family: Helvetica;
+    background-color: darkorange;
     
 }
+#tit-div {
+    display: flex;
+    align-items: center;
+    margin-left: 4%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    letter-spacing: 200%;
+}
+#title {
+
+}
 main {
-    width:  80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 #game {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
+    align-items: center;
+}
+.field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10%;
+}
+.choice {
+    width: 100px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+#play {
+    width: 40%;
+    margin-top: 20%;
+    height: 100px;
+    border-radius: 10px;
+    background-color: green;
 }
